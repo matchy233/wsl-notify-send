@@ -2,12 +2,12 @@ name: build-and-release
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main, utf8 ]
     paths-ignore:
       - README.md
       - 'docs/**'
   pull_request:
-    branches: [ master ]
+    branches: [ main, utf8 ]
     paths-ignore:
       - README.md
       - 'docs/**'
